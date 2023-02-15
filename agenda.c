@@ -9,13 +9,13 @@ struct compromissoNo* head = NULL;
 void verificaMallocNo(struct compromissoNo* alocacao){
     if(alocacao == NULL){
         printf("Erro de alocação de memória, o programa será terminado\n");
-        exit(0);
+        exit(1);
     }
 }
 void verificaMallocCompromisso(struct compromisso* alocacao){
     if(alocacao == NULL){
         printf("Erro de alocação de memória, o programa será terminado\n");
-        exit(0);
+        exit(1);
     }
 }
 
